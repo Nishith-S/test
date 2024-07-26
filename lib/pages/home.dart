@@ -11,7 +11,13 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text("On lessons.."),
+        child: Column(
+          children: [
+            Text("On lessons.."),
+            Text("List of lessons!")
+            //My work is done! - Nishith
+          ],
+        ),
       ),
     );
   }
